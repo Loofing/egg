@@ -1,5 +1,4 @@
 #pragma once
-#define __DBUG
 
 // Xbox headers
 #include <xtl.h>
