@@ -1,0 +1,7 @@
+# Output binaries
+build/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user

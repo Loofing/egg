@@ -1,0 +1,1 @@
+﻿  mINI.vcxproj -> C:\Users\Admin\Desktop\Evil Inc\build\bin\mINI.lib

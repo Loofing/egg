@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\pch.cpp" />
+    <ClCompile Include="src\plugin.cpp" />
+    <ClCompile Include="src\mw2\iw4mp.cpp">
+      <Filter>iw4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mw2\hooks.cpp">
+      <Filter>iw4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mw2\game\functions.cpp">
+      <Filter>iw4\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mw2\script\functions.cpp">
+      <Filter>iw4\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mw2\script\methods.cpp">
+      <Filter>iw4\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mw2\script\notify.cpp">
+      <Filter>iw4\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mw2\game\dvar.cpp">
+      <Filter>iw4\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\plugin.h" />
+    <ClInclude Include="src\mw2\iw4mp.h">
+      <Filter>iw4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\hooks.h">
+      <Filter>iw4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel.h" />
+    <ClInclude Include="src\mw2\structs\entity.h">
+      <Filter>iw4\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\structs\structs.h">
+      <Filter>iw4\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\structs\xasset.h">
+      <Filter>iw4\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\game\functions.h">
+      <Filter>iw4\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\game\dvar.h">
+      <Filter>iw4\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\script\functions.h">
+      <Filter>iw4\script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\script\methods.h">
+      <Filter>iw4\script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mw2\script\notify.h">
+      <Filter>iw4\script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="iw4">
+      <UniqueIdentifier>{2374f70e-8126-40f0-90a3-561a33ba8132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iw4\structs">
+      <UniqueIdentifier>{f38667de-f2f4-4ab6-91bc-a10a474806ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iw4\game">
+      <UniqueIdentifier>{c2845b8c-7686-4aa5-8224-ff5e08c4817d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iw4\script">
+      <UniqueIdentifier>{c80648ba-5569-4a03-9586-75f043862c46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
